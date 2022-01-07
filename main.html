@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Scatter</title>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="buttons">
+        <button id="playbutton" class="gamebuttons">PLAY</button>
+        <button id="howbutton" class="gamebuttons">HOW</button>
+    </div>
+
+    <script src="renderer.js"></script>
+    <style>
+        canvas {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+        #playbutton {
+            top: 40%;
+            left: 5%;
+        }
+
+        #howbutton {
+            top: 40%;
+            left: 65%;
+        }
+
+        #howbackbutton {
+            top: 3%;
+            left: 30%;
+            width: 40%;
+            height: 10%;
+            border: 2px solid slategray;
+        }
+
+        .gamebuttons {
+            width: 30%;
+            height: 12%;
+            background-color: #000;
+            border: 3px solid slategray;
+            font-family: Monospace;
+            color: #fff;
+            font-size: 30px;
+            position: absolute;
+        }
+
+        .gamebuttons:hover {
+            color: #fff;
+        }
+    </style>
+</body>
+
+</html>
